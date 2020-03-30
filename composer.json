@@ -1,0 +1,28 @@
+{
+    "name": "zhuzi\/weather",
+    "description": "get weather",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhuzi",
+            "email": "1076380746@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "phpunit/phpunit": "^7.5",
+        "mockery/mockery": "^1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhuzi\\Weather\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zhuzi\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
